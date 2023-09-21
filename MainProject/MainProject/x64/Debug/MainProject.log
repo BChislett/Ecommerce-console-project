@@ -1,0 +1,38 @@
+﻿  Main.cpp
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\PriorityQueue.h(36,26): warning C4244: '=': conversion from 'T2' to 'float', possible loss of data
+          with
+          [
+              T2=int
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\PriorityQueue.h(32): message : while compiling class template member function 'void Priority_Queue<std::string,int>::insert(T,T2)'
+          with
+          [
+              T=std::string,
+              T2=int
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\Main.cpp(116): message : see reference to function template instantiation 'void Priority_Queue<std::string,int>::insert(T,T2)' being compiled
+          with
+          [
+              T=std::string,
+              T2=int
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\Main.cpp(22): message : see reference to class template instantiation 'Priority_Queue<std::string,int>' being compiled
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\PriorityQueue.h(36,26): warning C4244: '=': conversion from 'T2' to 'float', possible loss of data
+          with
+          [
+              T2=double
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\PriorityQueue.h(32): message : while compiling class template member function 'void Priority_Queue<std::string,double>::insert(T,T2)'
+          with
+          [
+              T=std::string,
+              T2=double
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\Main.cpp(115): message : see reference to function template instantiation 'void Priority_Queue<std::string,double>::insert(T,T2)' being compiled
+          with
+          [
+              T=std::string,
+              T2=double
+          ]
+C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\MainProject\Main.cpp(21): message : see reference to class template instantiation 'Priority_Queue<std::string,double>' being compiled
+  MainProject.vcxproj -> C:\Users\chiss\OneDrive\Documents\MUN Term 4\4400 Data Structures\MainProject\x64\Debug\MainProject.exe
